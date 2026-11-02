@@ -8,7 +8,7 @@ My goal is to make it easier for students to use the free campus shuttle service
 
 For the first version of my website, I plan to include:
 
-- A campus map showing shuttle stops.
+- A campus map showing shuttle stops and routes.
 - A feature to find nearby bus stops using the user's current location.
 - A search option where students can enter their destination.
 - Suggestions about which shuttle they should take.
@@ -20,14 +20,43 @@ In the future, I would like to add live shuttle tracking, real-time bus delay no
 
 ## Tech Stack
 
-- HTML
-- CSS
-- JavaScript
-- Leaflet.js
-- OpenStreetMap
-- Geolocation API
-- JSON
-- Git and GitHub
+- **Main programming language:** JavaScript
+- **Web technologies:** HTML and CSS
+- **Libraries:** Leaflet.js
+- **External map source:** OpenStreetMap
+- **Data storage:** Local JSON files
+- **Development tools:** VS Code, Git, and GitHub
+- **Browser API:** Geolocation API
+- **Additional scripting language:** Bash
+
+## Bash Script
+
+I plan to use a small Bash script to check whether the shuttle stops and routes data files exist and contain information before using them in the project. This will help me keep the project data organized and make it easier to identify missing files during development.
+
+## Project Structure
+
+The planned project structure is:
+
+```text
+campus-shuttle-navigator/
+│
+├── README.md
+├── index.html
+├── style.css
+├── script.js
+│
+├── data/
+│   ├── stops.json
+│   └── routes.json
+│
+├── scripts/
+│   └── check-data.sh
+│
+└── docs/
+    ├── eisenhower-matrix.pdf
+    ├── system-diagram.png
+    └── system-diagram.drawio
+```
 
 ## Project Documents
 
@@ -36,4 +65,4 @@ In the future, I would like to add live shuttle tracking, real-time bus delay no
 
 ## Project Status
 
-Currently in the planning and initial setup stage.
+The project is currently in the planning and initial setup stage.
