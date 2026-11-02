@@ -61,7 +61,8 @@ campus-shuttle-navigator/
 ## Project Documents
 
 - Eisenhower Matrix
-- System Diagram
+- Editable System Diagram
+- System Diagram (PNG)
 
 ## Project Status
 
